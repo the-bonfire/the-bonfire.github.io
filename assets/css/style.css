@@ -1,0 +1,243 @@
+
+ul{
+	list-style-type:none;
+}
+*{
+	font-family: 'Cormorant Garamond', serif;
+	background-color:#000000;
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+header,footer{
+	background-image:url(../img/meni.jpg);
+    background-repeat:repeat;
+	animation-name:title;
+	animation-duration:3s;
+	width:100%;
+	
+}
+header h1{
+	background-image:url(../img/meni.jpg);
+    background-repeat:repeat;
+}
+.wrapper{
+	width:80%;
+	margin: 0px auto;
+	height:100%;
+	text-align:center;
+	animation-name:title;
+	animation-duration:3s;
+
+}
+@keyframes title{
+	0%{opacity:0;}
+	100% {opacity:1;}
+}
+.title{
+	color:#e0dfdc;
+	font-size:150px;
+	display:flex;
+	justify-content:center;
+	text-align:center;
+}
+
+
+
+.cleaner{
+	clear:both;
+	float:right;
+}
+
+
+.wrapper1{
+	width:80%;
+	margin: 30px auto;
+	height:100%;
+	display:flex;
+	flex-wrap:wrap;
+	padding-top:30px;
+	overflow:hidden;
+	justify-content:space-between;
+
+}
+@keyframes meni{
+	0%{opacity:0;}
+	100%{opacity:1;}
+}
+#meni{
+
+	width:45%;
+	height:100%;
+	background-image:url(../img/meni.jpg);
+    background-repeat:repeat ,repeat;
+	background-size:cover;
+	animation-name:meni;
+	animation-duration:10s;
+	margin-left:60px;
+	
+}
+#bonfirediv{
+	animation-name:meni;
+	animation-duration:10s;
+}
+
+
+#meni ul li{
+	font-size:50px;
+	border: 2px solid #6b4332;
+	border-collapse: collapse;
+	background-color:transparent;
+	background-image:url(../img/meni.jpg);
+    background-repeat:repeat ,repeat;
+	background-size:cover;
+
+}
+#meni ul li h2{
+	text-align:center;
+	color:#e0dfdc;
+	background-color:transparent;
+	
+}
+#meni ul li a{
+	width:100%;
+	color:#e0dfdc;
+	margin-left:40px;
+	text-decoration:none;
+	background-color:transparent;
+	
+}
+#meni ul li a:hover{
+	background-color:#612501;
+}
+
+footer{
+	width:100%;
+	padding:10px;
+	position:absolute;
+	bottom:0;
+	
+	
+	
+   
+}
+.wrapper2{
+	width:80%;
+	margin: 0px auto;
+	animation-name:title;
+	animation-duration:4s;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	background-image:url(../img/meni.jpg);
+    background-repeat:repeat;
+	padding:10px;
+	
+	
+
+}
+footer p{
+	color:#e0dfdc;
+	font-size:30px;
+	background-image:url(../img/meni.jpg);
+    background-repeat:repeat;
+	
+	
+}
+.copy{
+	background-image:url(../img/meni.jpg);
+    background-repeat:repeat;
+}
+.hollow{
+	background-image:url(../img/meni.jpg);
+    background-repeat:repeat;
+	
+	
+}
+
+.hollow p{
+	color:#918c23;
+	font-style:italic;
+	text-shadow:2px 2px #black;
+	position:relative;
+	left:100px;
+	
+	
+	
+}
+.icons{
+	background-image:url(../img/meni.jpg);
+    background-repeat:repeat;
+	position:relative;
+	left:200px;
+	
+}
+
+.icons ul{
+	list-style:none;
+	background-color:transparent;
+	
+}
+.icons ul li{
+	
+	display:inline-block;
+	margin-left:10px;
+	background-image:url(../img/meni.jpg);
+    background-repeat:repeat;
+	background-color:transparent;
+	
+	
+	
+}
+.icons ul li a{
+	
+	color:#e0dfdc;
+	font-size:25px;
+	background-image:url(../img/meni.jpg);
+    background-repeat:repeat;
+	background-color:transparent;
+	
+	
+}
+.icons ul li a:hover{
+	color:#918c23;
+}
+.icons ul{
+	background-image:url(../img/meni.jpg);
+    background-repeat:repeat ,repeat;
+	
+}
+@media (max-width:280px){
+	.title{
+	font-size:70px;}
+	h2{
+		font-size:50px;
+	}
+	h3{
+		font-size:40px;
+	}
+}
+@media (min-width:281px max-width:480px){
+	.title{
+	font-size:90px;}
+	h2{
+		font-size:60px;
+	}
+	h3{
+		font-size:50px;
+	}
+}
+#navbar ul li a{
+	text-decoration:none;
+}
+#navbar{
+	font-size:50px;
+	display:flex;
+	flex-wrap:wrap;
+	margin:20px auto;
+}
+#navbar ul li{
+	border: 2px solid #786340;
+	display:inline-block;
+}
