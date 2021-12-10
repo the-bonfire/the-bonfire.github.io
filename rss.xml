@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+	<title>The Bonfire</title>
+	<link> https://the-bonfire.github.io/</link>
+	<description>This website is about the video game Dark Souls</description>
+	<item>
+		<title>Lore update</title>
+		<link> https://the-bonfire.github.io/lore.html </link>
+		<description>Updated information about the lore of the game</description>
+	</item>
+	<item>
+		<title>News about the game</title>
+		<link> https://the-bonfire.github.io/aboutthegame.html </link>
+		<description>Updated information about the game</description>
+	</item>
+	
+</channel>
+</rss>

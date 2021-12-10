@@ -11,15 +11,19 @@ ul{
 }
 
 header,footer{
-	background-image:url(../img/meni.jpg);
+	background-image:url("../img/meni.jpg");
     background-repeat:repeat;
 	animation-name:title;
 	animation-duration:3s;
 	width:100%;
+
 	
 }
+header{
+	padding:10px;
+}
 header h1{
-	background-image:url(../img/meni.jpg);
+	background-image:url("../img/meni.jpg");
     background-repeat:repeat;
 }
 .wrapper{
@@ -70,7 +74,7 @@ header h1{
 
 	width:45%;
 	height:100%;
-	background-image:url(../img/meni.jpg);
+	background-image:url("../img/meni.jpg");
     background-repeat:repeat ,repeat;
 	background-size:cover;
 	animation-name:meni;
@@ -88,10 +92,10 @@ header h1{
 	font-size:50px;
 	border: 2px solid #6b4332;
 	border-collapse: collapse;
-	background-color:transparent;
-	background-image:url(../img/meni.jpg);
+	background-image:url("../img/meni.jpg");
     background-repeat:repeat ,repeat;
 	background-size:cover;
+	
 
 }
 #meni ul li h2{
@@ -112,11 +116,13 @@ header h1{
 	background-color:#612501;
 }
 
+
 footer{
 	width:100%;
 	padding:10px;
 	position:absolute;
 	bottom:0;
+	
 	
 	
 	
@@ -130,9 +136,10 @@ footer{
 	display:flex;
 	flex-wrap:wrap;
 	justify-content:space-between;
-	background-image:url(../img/meni.jpg);
+	background-image:url("../img/meni.jpg");
     background-repeat:repeat;
 	padding:10px;
+	
 	
 	
 
@@ -140,17 +147,17 @@ footer{
 footer p{
 	color:#e0dfdc;
 	font-size:30px;
-	background-image:url(../img/meni.jpg);
+	background-image:url("../img/meni.jpg");
     background-repeat:repeat;
 	
 	
 }
 .copy{
-	background-image:url(../img/meni.jpg);
+	background-image:url("../img/meni.jpg");
     background-repeat:repeat;
 }
 .hollow{
-	background-image:url(../img/meni.jpg);
+	background-image:url("../img/meni.jpg");
     background-repeat:repeat;
 	
 	
@@ -167,7 +174,7 @@ footer p{
 	
 }
 .icons{
-	background-image:url(../img/meni.jpg);
+	background-image:url("../img/meni.jpg");
     background-repeat:repeat;
 	position:relative;
 	left:200px;
@@ -183,7 +190,7 @@ footer p{
 	
 	display:inline-block;
 	margin-left:10px;
-	background-image:url(../img/meni.jpg);
+	background-image:url("../img/meni.jpg");
     background-repeat:repeat;
 	background-color:transparent;
 	
@@ -194,7 +201,7 @@ footer p{
 	
 	color:#e0dfdc;
 	font-size:25px;
-	background-image:url(../img/meni.jpg);
+	background-image:url("../img/meni.jpg");
     background-repeat:repeat;
 	background-color:transparent;
 	
@@ -204,7 +211,7 @@ footer p{
 	color:#918c23;
 }
 .icons ul{
-	background-image:url(../img/meni.jpg);
+	background-image:url("../img/meni.jpg");
     background-repeat:repeat ,repeat;
 	
 }
@@ -230,14 +237,136 @@ footer p{
 }
 #navbar ul li a{
 	text-decoration:none;
+	
 }
 #navbar{
 	font-size:50px;
-	display:flex;
 	flex-wrap:wrap;
 	margin:20px auto;
+	background-color:transparent;
+	background-image:url("../img/meni.jpg");
+    background-repeat:repeat;
+	
+	
 }
 #navbar ul li{
 	border: 2px solid #786340;
 	display:inline-block;
+	padding:10px;
+	background-color:transparent;
+	
+	
+}
+
+#navbar ul li a h4{
+	color:#e0dfdc;
+	background-color:transparent;
+}
+#navbar ul li:hover{
+	background-color:#612501;
+}
+#navbar ul,#navbar ul li,#navbar ul li a{
+	background-color:transparent;
+	
+}
+#main1{
+	margin:50px auto;
+	background-color:#612601;
+	
+	width:75%;
+	height:500px;
+	Overflow-y:scroll;
+	Overflow-x:hidden;
+	padding: 30px;
+	border: 3px solid #918c23;
+	border-radius:30px;
+	animation-name:meni;
+	animation-duration:7s;
+}
+#lore{
+	background-color:#612601;
+	text-shadow: 2px 2px #000000;
+}
+#lore p{
+	font-size:30px;
+	color:#e0dfdc;
+	background-color:#612601;
+	font-style:italic;
+	text-align:center;
+	
+	
+}
+
+.minibonfire1{
+	display: block;
+	margin:0px auto;
+	width:5%;
+	margin-bottom:20px;
+	animation-name:meni;
+	animation-duration:8s;
+	
+}
+.minibonfire figcaption{
+	color:#e0dfdc;
+	text-align:center;
+	animation-name:meni;
+	animation-duration:8s;
+}
+#main2{
+	margin:50px auto;
+	width:75%;
+	height:500px;
+	Overflow-y:scroll;
+	Overflow-x:hidden;
+	padding: 30px;
+	border: 3px solid #918c23;
+	border-radius:30px;
+	background-color:#612601;
+	animation-name:meni;
+	animation-duration:7s;
+	
+}
+.gallery{
+	border-radius:10px;
+	float:left;
+	margin:18px;
+	background-color:#612601;
+}
+.m1{
+	margin-left:353px;
+}
+.gallery img{
+	border-radius:20px;
+	transition:1s, 1s, 0.2s;
+	transition-timing-function: linear;
+}
+.gallery img:hover{
+	transform:scale(1.3);
+	border:2px solid #918c23;
+}
+.area{
+	background-color:#612601;
+	text-align:center
+}
+.area figcaption,.area h2{
+	background-color:#612601;
+	color:#e0dfdc;
+	
+}
+.area h2{
+	font-size:50px;
+	
+}
+.area figcaption{
+	font-size:30px;
+	font-style:italic;
+	text-shadow: 2px 2px #000000;
+}
+.area img{
+	border-radius:20px;
+	transition:1s, 1s, 0.2s;
+	transition-timing-function: linear;
+}
+.area img:hover{
+	transform:scale(1.3);
 }
