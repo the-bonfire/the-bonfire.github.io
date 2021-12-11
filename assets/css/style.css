@@ -20,7 +20,7 @@ header,footer{
 	
 }
 footer{
-	padding:5px 0px;
+	padding:7px 0px;
 }
 header{
 	padding:10px;
@@ -37,6 +37,15 @@ header h1{
 	animation-name:title;
 	animation-duration:3s;
 
+}
+.wrapper h5{
+	color:#e0dfdc;
+	background-color:transparent;
+	background-image:url("../img/meni.jpg");
+    background-repeat:repeat;
+	font-size:20px;
+	margin:0px auto;
+	margin-top:-10px;
 }
 @keyframes title{
 	0%{opacity:0;}
@@ -130,7 +139,7 @@ footer{
 }
 #mainfooter{
 	margin-top:auto;
-	padding:40px 0px;
+	padding:33px 0px;
 }
 .wrapper2{
 	width:80%;
@@ -260,7 +269,7 @@ footer p{
 	background-color:#612601;
 	
 	width:75%;
-	height:500px;
+	height:750px;
 	Overflow-y:scroll;
 	Overflow-x:hidden;
 	padding: 30px;
@@ -291,7 +300,8 @@ h2{
 }
 
 .minibonfire1{
-	display: block;
+	display:flex;
+	flex-direction:column;
 	margin:0px auto;
 	width:5%;
 	margin-bottom:20px;
@@ -314,7 +324,7 @@ h2{
 #main2{
 	margin:50px auto;
 	width:75%;
-	height:500px;
+	height:750px;
 	Overflow-y:scroll;
 	Overflow-x:hidden;
 	padding: 30px;
@@ -408,8 +418,8 @@ h2{
 #main3{
 	margin:50px auto;
 	width:75%;
-	height:500px;
-	Overflow-y:scroll;
+	height:750px;
+	Overflow-y:hidden;
 	Overflow-x:hidden;
 	padding: 30px;
 	border: 3px solid #918c23;
@@ -419,8 +429,10 @@ h2{
 	animation-duration:7s;
 	display:flex;
 	flex-direction:column;
+
 	
 }
+
 #pfp{
 	margin:0px auto;
 	border-radius:30px;
@@ -447,6 +459,7 @@ h2{
 	margin:0px auto;
 	justify-content:center;
 	width:70%;
+	background-color:#612601;
 	
 }
 form{
