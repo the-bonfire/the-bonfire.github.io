@@ -105,14 +105,16 @@ header h1{
 	
 }
 #meni ul li a{
-	width:100%;
-	color:#e0dfdc;
-	margin-left:40px;
 	text-decoration:none;
+	
+}
+#meni ul li a p{
+	color:#e0dfdc;
+	padding-left:30px;
 	background-color:transparent;
 	
 }
-#meni ul li a:hover{
+#meni ul li a p:hover{
 	background-color:#612501;
 }
 
