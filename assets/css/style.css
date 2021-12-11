@@ -78,13 +78,13 @@ header h1{
     background-repeat:repeat ,repeat;
 	background-size:cover;
 	animation-name:meni;
-	animation-duration:10s;
+	animation-duration:7s;
 	margin-left:60px;
 	
 }
 #bonfirediv{
 	animation-name:meni;
-	animation-duration:10s;
+	animation-duration:7s;
 }
 
 
@@ -127,7 +127,7 @@ footer{
 }
 #mainfooter{
 	margin-top:auto;
-	
+	padding:40px 0px;
 }
 .wrapper2{
 	width:80%;
@@ -217,11 +217,11 @@ footer p{
 	
 }
 
-#navbar ul li a{
+.navbar ul li a{
 	text-decoration:none;
 	
 }
-#navbar{
+.navbar{
 	font-size:50px;
 	flex-wrap:wrap;
 	margin:20px auto;
@@ -231,23 +231,24 @@ footer p{
 	
 	
 }
-#navbar ul li{
+.navbar ul li{
 	border: 2px solid #786340;
 	display:inline-block;
 	padding:10px;
 	background-color:transparent;
+	margin-top:3px;
 	
 	
 }
 
-#navbar ul li a h4{
+.navbar ul li a h4{
 	color:#e0dfdc;
 	background-color:transparent;
 }
-#navbar ul li:hover{
+.navbar ul li:hover{
 	background-color:#612501;
 }
-#navbar ul,#navbar ul li,#navbar ul li a{
+.navbar ul,.navbar ul li,.navbar ul li a{
 	background-color:transparent;
 	
 }
@@ -292,13 +293,19 @@ h2{
 	margin-bottom:20px;
 	animation-name:meni;
 	animation-duration:8s;
-	
+	background-color:transparent;
+
+}
+.minibonfire figure img{
+	background-color:transparent;
 }
 .minibonfire figcaption{
 	color:#e0dfdc;
 	text-align:center;
 	animation-name:meni;
 	animation-duration:8s;
+	text-shadow:3px 3px #000;
+	
 }
 #main2{
 	margin:50px auto;
@@ -334,7 +341,8 @@ h2{
 	background-color:#612601;
 }
 .m1{
-	margin-left:353px;
+	display:flex;
+	flex-direction:column;
 }
 .gallery img{
 	border-radius:20px;
@@ -381,6 +389,10 @@ h2{
 	background-color:#612601;
 	display:flex;
 	justify-content:center;
+
+}
+#fromsoft img{
+	border-radius:20px;
 }
 .gallery img{
 	background-color:#612601;
@@ -455,10 +467,12 @@ label{
 input[type="submit"]{
 	border:3px solid #4085a3;
 	border-radius:10px;
+	background-color:#000;
 }
 input[type="reset"]{
 	border:3px solid #da622c;
 	border-radius:10px;
+	background-color:#000;
 	
 }
 input[type="submit"]:hover{
