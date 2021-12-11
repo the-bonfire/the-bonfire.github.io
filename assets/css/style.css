@@ -400,3 +400,9 @@ h2{
 	display:flex;
 	justify-content:center;
 }
+.gallery img{
+	background-color:#612601;
+}
+.gallery img alt{
+	color:#e0dfdc;
+}
