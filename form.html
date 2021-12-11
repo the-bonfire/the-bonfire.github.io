@@ -2,12 +2,11 @@
 <html>
 	<head>
 		<meta charset="UTF-8"/>
-		<title>The Bonfire</title>
+		<title>Join us</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<!-- ikonice -->
 		
 		<script src="https://kit.fontawesome.com/6bd702d48f.js" crossorigin="anonymous"></script>
-		<meta name="keywords" content="Dark Souls, Bonfire" />
 		<!-- font -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,32 +19,49 @@
 	<body>
 		<header>
             <div class="wrapper">
-                <h1 class="title">THE BONFIRE</h1>
+                <nav id="navbar">
+					<ul>
+						<li><a href="lore.html"><h4>Lore</h4></a></li>
+						<li><a href="areas.html"><h4>Areas</h4></a></li>
+						<li><a href="gallery.html"><h4>Gallery</h4></a></li>
+						<li><a href="aboutthegame.html" ><h4>About the game</h4></a></li>
+						<li><a href="abouttheauthor.html"><h4>About the author</h4></a></li>
+					</ul>
+				</nav>
             </div>
         </header>
-		<div class="wrapper1">
-			 <div id="meni">
-				
-					<ul>
-						<li><a href="lore.html" title="Get to know the story of Dark Souls"><p>Lore</p></a></li>
-						<li><a href="areas.html" title="Visit all of the areas of Dark Souls"><p>Areas</p></a></li>
-						<li><a href="bosses.html"  title="See the bosses you will face in Dark Souls"><p>Bosses</p></a></li>
-						<li><a href="aboutthegame.html"  title="About Dark Souls"><p>About the game</p></a></li>
-						<li><a href="gallery.html" title="Some pictures of the gameplay"><p>Gallery</p></a></li>
-						<li><a href="abouttheauthor.html" title="Some imformation about the author of the website"><p>About the author</p></a></li>
-						<li><a href="form.html" title="Become the chosen undead"><p>Join us</p></a></li>
-						<li>&nbsp;</li>
-					</ul>
+		<div id="main2">
+			<div id="join">
+				<h2>Join us on an adventure and become the chosen undead</h2>
+				<form method="POST">
+					<label for="user">
+						Username:
+					</label>
+					<input type="text" required="required" id="user" name="user" placeholder="YourUsername"/>
+					<label for="email">
+						Email:
+					</label>
+					<input type="email" required="required" id="email" name="email" placeholder="youremail@gmail.com"/>
+					<label for="password">
+						Password:
+					</label>
+					<input type="password" required="required" id="password" name="password"/>
+					<input type="submit" value="Submit"/>
+					<input type="reset" value="Reset"/>
+				</form>
 			</div>
-			<div id="bonfirediv">
-				<figure>
-					<a href="index.html"><img class="bonfire" src="assets/img/bonfire.gif" title="Go back to the bonfire" alt="Bonfire - The resting place" width="500px"/></a>
-				</figure>
-			</div>
-			<div class="cleaner"></div>
+			
 			
 		</div>
-		<footer id="mainfooter">
+		<div class="minibonfire">
+			<figure>
+				<a href="index.html" title="Go back to the bonfire">
+					<img  class="minibonfire1" src="assets/img/bonfire.gif" alt="bonfire" />
+				</a>
+			<figcaption>"Go back to the bonfire"</figcaption>
+			</figure>
+		</div>
+		<footer>
 			<div class="wrapper2">
 				<div class="copy">
 					<p>&copy; Copyright 2021</p>
@@ -55,6 +71,7 @@
 				</div>
 				<div class="icons">
 					<ul>
+						
 						<li><a href="https://www.instagram.com/fromsoftware/" target="_blank"><i class="fab fa-instagram"></i></a></li>
 						<li><a href="https://twitter.com/fromsoftware_pr" target="_blank"><i class="fab fa-twitter"></i></a></li>
 						<li><a href="https://www.facebook.com/fromsoftware.jp" target="_blank"><i class="fab fa-facebook-f"></i></a></li>						
