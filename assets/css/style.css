@@ -19,6 +19,9 @@ header,footer{
 
 	
 }
+footer{
+	padding:5px 0px;
+}
 header{
 	padding:10px;
 }
